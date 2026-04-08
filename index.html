@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Serenity Phillips</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+
+        <!-- the nav bar at the top -->
+         <nav>
+            <span class="logo">S. ✦</span>
+            <ul>
+                <li><a href="#projects">work</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+         </nav>
+
+         <!-- hero section -->
+          <section id="hero">
+            <div class="hero-text">
+                <p class="eyebrow">CS · UNC Chapel Hill · Launch SWE 2026</p>
+                <h1>Hi, I'm <span>Serenity.</span></h1>
+                <p class="tagline">Full-stack developer & cybersecurity enthusiast. <br>I want to build things that protect people.</p>
+                <div class ="hero-buttons">
+                    <a href="#projects" class="btn-primary">view my work</a>
+                    <a href="#contact" class="btn-ghost">get in touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <canvas id="solar"></canvas>
+            </div>
+          </section>
+
+          <!-- projects section -->
+           <section id="projects">
+            <p class="section-label">featured projects</p>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <h3>Privacy Shield</h3>
+                    <p>Browser extension with ad blocking, cookie controls & PIN auth.</p>
+                    <div class="stack">
+                        <span>JavaScript</span>
+                        <span>WebExtensions</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Solar System</h3>
+                    <p>Real-time 3D orbital simulation built from scratch with WebGL & GLSL shaders.</p>
+                    <div class="stack">
+                        <span>WebGL</span>
+                        <span>GLSL</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>TicTacToe</h3>
+                    <p>Classic game with clean UI and win-detection logic.</p>
+                    <div class="stack">
+                        <span>React</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+            </div>
+           </section>
+
+           <!-- about section -->
+            <section id="about">
+                <p class="section-label">about me</p>
+                <p class="about-text">CS student at UNC Chapel Hill with a passion for cybersecurity and understanding why systems work, not just how. I've built everything from WebGL simulations to browser extensions to iOS apps. Currently in Launch SWE 2026 and looking for internships where I can learn more!</p>
+            </section>
+
+            <!-- contact section -->
+             <section id="contact">
+                <p class="section-label">get in touch</p>
+                <h2>Let's connect.</h2>
+                <a href="mailto:sphillips@unc.edu">sphillips@unc.edu</a>
+                <div class="social-links">
+                    <a href="https://github.com/serenren13" target="_blank">GitHub</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+             </section>
+        <script src="main.js"></script>
+    </body>
+</html>
