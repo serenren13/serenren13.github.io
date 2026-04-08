@@ -220,3 +220,31 @@ h1 span {
     font-family: 'DM Mono', monospace;
     letter-spacing: 0.05em;
 }
+
+@media (max-width: 768px) {
+    #hero {
+        grid-template-columns: 1fr;
+        padding: 3rem 1.5rem;
+        min-height: auto;
+    }
+
+    .hero-visual {
+        height: 280px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        padding: 1.2rem 1.5rem;
+    }
+
+    nav ul {
+        gap: 1.2rem;
+    }
+
+    #about, #projects, #contact {
+        padding: 3rem 1.5rem;
+    }
+}
